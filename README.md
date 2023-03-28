@@ -14,12 +14,16 @@ This command creates a new link to the original file, so that any changes made t
 The hard link only works for files.Delete one file will not affect another linked file.
 
 ### 3.Journal folder structure and tag system
-- My workflow is based on daily Journal.
-- It is a file based system, all notesmare orgnized in folder_structure <br />
+My workflow is based on daily Journal.<br />
+It is a file based system, all notesmare orgnized in folder_structure <br />
 **one folder one day**, **one entry one file**.
 <p align="left">
 <img src="/src/folder_structure.png" alt="Journal folder structure]" width="500">
 </p>
+
+Journal folder stucture
+--Journal
+
 **Tag system**
-Yes, we can use hard links to build a tag system. By assigning tags to files through hard links, we can easily organize and access files by their tags. This is because each hard link behaves as a separate file that retains the same content as the original file, but with a different name or location. Thus, multiple tags can be assigned to a single file by creating multiple hard links to that file with different tag names.
+Yes, we can use hard links and ripgrep to build a note tag system. To tag a note, just and #tag in the markdown note file in any daily folder.
 
