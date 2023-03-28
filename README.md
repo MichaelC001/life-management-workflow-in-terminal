@@ -15,15 +15,19 @@ The hard link only works for files.Delete one file will not affect another linke
 
 ### 3.Journal folder structure and tag system
 My workflow is based on daily Journal.<br />
-It is a file based system, all notesmare orgnized in folder_structure <br />
+It is a file based system, all notesmare orgnized in folder structure <br />
 **one folder one day**, **one entry one file**.
 <p align="left">
 <img src="/src/folder_structure.png" alt="Journal folder structure]" width="500">
 </p>
 
-Journal folder stucture
---Journal
+Notebook folder stucture
+```mermaid
+-- Journal
+-- 
+```
 
 **Tag system**
 Yes, we can use hard links and ripgrep to build a note tag system. To tag a note, just and #tag in the markdown note file in any daily folder.
+
 
