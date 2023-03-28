@@ -22,11 +22,36 @@ It is a file based system, all notesmare orgnized in folder structure <br />
 </p>
 
 Notebook folder stucture
-```mermaid
--- Journal
--- 
 ```
+Notebook
+├── Journal
+│    ├── 2302
+│    └── 2303
+│         ├── 28-Tue
+│         ├── 29-Wed
+├── Cycle
+│    ├── Week
+│    │     ├── Week 01
+│    └── Season
+├── Anki
+├── Reading
+├── Type
+│   ├── video
+│   ├── picture
+│   ├── pdf
+│   ├── text
+│   ├── script
+├── Tags
+│   ├── #backup
+│   ├── #curiosity
+│   ├── #digital
+│   ├── #health
+│   ├── #passion
+│   ├── #principle
+│   ├── #realationship
+├── Attachments
 
+```
 **Tag system**
 Yes, we can use hard links and ripgrep to build a note tag system. To tag a note, just and #tag in the markdown note file in any daily folder.
 
