@@ -53,7 +53,6 @@ Notebook
 ├── Tags
 │   ├── #work
 │   ├── #curiosity
-│   ├── #digital
 │   ├── #health
 │   ├── #passion
 │   ├── #principle
@@ -69,6 +68,9 @@ For example, in the folder /type/pdf, there is a script folder_type.fish , it wi
 
 Another example, in the folder /tag/#work, there is a script folder_tag.fish (and all the other tag foder like #health, is hard linked to the save folder_tag.fish),  it will delete all file in this folder at everyday 00:01AM, then search all md files under Journal folder, and create hard links of each unique md files with the text "#work" in this folder. So I could access all my work journals in this folder, I could edit it, and all the change will sync to the linked file in Journal folder automaticlly.
 
-Another example, I want to view all notes metioned "food" temporarily, I could use the function snf (search and file), It will create a folder named .tmp/food-date-time/, this script will find out all notes metioned "food" under Journal folder and hard linked them in this folder. I could sort or edit all food notes in LF file manager, and this change will sync to the files in the original Journal folder, then I could exit this folder and do another search for "work "and edit thme. Every day I will run an auto script to delete the tmp folder, just delete one of these hard links, all the original files and changes in the Journal folder are still there.
+Another example, I want to view all notes metioned "digital" temporarily (tag/digital/ is not exist), I could use the script snf (search and file), It will create a folder named .tmp/food-date-time/, this script will find out all notes metioned "food" under Journal folder and hard linked them in this folder. I could sort or edit all food notes in LF file manager, and this change will sync to the files in the original Journal folder, then I could exit this folder and do another search for "work "and edit thme. Every day I will run an auto script to delete the tmp folder, just delete one of these hard links, all the original files and changes in the Journal folder are still there.
 
+<p align="left">
+<img src="/src/snf.gif" alt="snf script]" width="500">
+</p>
 
