@@ -6,6 +6,7 @@
 - My workflow is based on daily Journal.
 - It is a file based system, all notesmare orgnized in folder: one folder one day, one entry one file.
 ![Journal folder structure](/src/folder_structure.png|width=100)
+<img src="/src/folder_structure.png" alt="Journal folder structure]" width="100" height="100">
 
 ## 2.Hark link and soft link
 - The core tool used in this workflow is the system build-in function: hard link and soft link.
