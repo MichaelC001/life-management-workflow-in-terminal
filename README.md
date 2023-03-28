@@ -53,6 +53,5 @@ Notebook
 
 ```
 **Tag system**
-Yes, we can use hard links and ripgrep to build a note tag system. To tag a note, just and #tag in the markdown note file in any daily folder.
-
-
+Yes, we can use hard links and ripgrep to build a note tag system. To tag a note, just and #tag in the markdown note file in any daily folder.<br />
+Every md files are stored in Journal folder, and all other folder like "type" or "tags" are diffrent view, I can create whatever view I want by a auto-run script, It will delete all the files in the folder, and will re-create **hard links** to any thing match certain type or tags. 
