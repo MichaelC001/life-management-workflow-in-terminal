@@ -9,8 +9,11 @@ The purpose of this workflow is to **solve problems** in my life and **develop m
 **Feature**<br />
 1. note tags
 2. search and edit
-3. read it later：reading  markdown files in neovim and then delete any unnecessary content, and summarize the main points of the article.
-4. backup any file with one click
+3. read it later 
+4. easy integrated with anki
+5. backup any file with one click
+6. chatgpt integrated
+7. 
 
 ### 2.Hark link and soft link
 The core tool used in this workflow is the system build-in function: hard link and soft link.<br />
