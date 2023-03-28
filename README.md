@@ -4,12 +4,12 @@
 
 ## 1.Journal structure
 - My workflow is based on daily Journal.
-- It is a file based system, all notesmare orgnized in folder: one folder one day, one entry one file.
+- It is a file based system, all notesmare orgnized in folder: **one folder one day**, **one entry one file**.
 <p align="left">
 <img src="/src/folder_structure.png" alt="Journal folder structure]" width="500">
 </p>
 
 ## 2.Hark link and soft link
 - The core tool used in this workflow is the system build-in function: hard link and soft link.
-- **hard link** : "ln original_file new_file" 
+- **hard link** : "ln original_file new_file" <br />
 this command creates a new link to the original file, so that any changes made to either file will be automatically synchronized, resulting in both files being exactly the same.
