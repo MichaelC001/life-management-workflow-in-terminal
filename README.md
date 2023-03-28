@@ -2,7 +2,7 @@
 ### 1. Principle and feature
 **Philosophy** <br />
 This workflow is just a methodology and philosophy, you can develop your own workflow based on it, you don't necessarily have to use the same software or tools as me.<br />
-**[Purpose]** <br />
+**Purpose** <br />
 The purpose of this workflow is to **solve problems** in my life and **develop my passions** through **lifelong learning**.<br />
 **Feature**<br />
 1. note tags
