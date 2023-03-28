@@ -5,7 +5,7 @@
 ## 1.Journal structure
 - My workflow is based on daily Journal.
 - It is a file based system, all notesmare orgnized in folder: one folder one day, one entry one file.
-<p align="center">
+<p align="left">
 <img src="/src/folder_structure.png" alt="Journal folder structure]" width="500">
 </p>
 
