@@ -3,10 +3,12 @@
 **Philosophy** <br />
 This workflow is just a methodology and philosophy, you can develop your own workflow based on it, you don't necessarily have to use the same software or tools as me.<br />
 **[Purpose]** <br />
-The purpose of this workflow is to **solve problems** in my life and **develop my passions** through **lifelong learning**.
+The purpose of this workflow is to **solve problems** in my life and **develop my passions** through **lifelong learning**.<br />
 **Feature**<br />
 1. note tags
-2. 
+2. search and edit
+3. read it later：reading  markdown files in neovim and then delete any unnecessary content, and summarize the main points of the article.
+4. backup any file：just hard link
 
 ### 2.Hark link and soft link
 The core tool used in this workflow is the system build-in function: hard link and soft link.<br />
