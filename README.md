@@ -30,7 +30,7 @@ My workflow is based on daily Journal.<br />
 It is a file based system, all notesmare orgnized in folder structure <br />
 **one folder one day**, **one entry one file**.
 <p align="left">
-<img src="/src/folder_structure.png" alt="Journal folder structure]" width="500">
+<img src="/src/folder_structure.png" alt="Journal folder structure]" width="700">
 </p>
 
 Notebook folder stucture
@@ -74,6 +74,6 @@ Another example, in the folder /tag/#work, there is a script folder_tag.fish (an
 Another example, I want to view all notes metioned "digital" temporarily (tag/digital/ is not exist), I could use the script snf (search and file), It will create a folder named .tmp/digital-date-time/, this script will find out all notes metioned "digital" under Journal folder and hard linked them in this folder. I could sort or edit all food notes in LF file manager, and this change will sync to the files in the original Journal folder, then I could exit this folder and do another search for "work "and edit thme. Every day I will run an auto script to delete the tmp folder, just delete one of these hard links, all the original files and changes in the Journal folder are still there.
 
 <p align="left">
-<img src="/src/snf.gif" alt="snf script]" width="500">
+<img src="/src/snf.gif" alt="snf script]" width="700">
 </p>
 
