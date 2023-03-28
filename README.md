@@ -70,6 +70,7 @@ Another example, in the folder /tag/#work, there is a script folder_tag.fish (an
 
 Another example, I want to view all notes metioned "digital" temporarily (tag/digital/ is not exist), I could use the script snf (search and file), It will create a folder named .tmp/food-date-time/, this script will find out all notes metioned "food" under Journal folder and hard linked them in this folder. I could sort or edit all food notes in LF file manager, and this change will sync to the files in the original Journal folder, then I could exit this folder and do another search for "work "and edit thme. Every day I will run an auto script to delete the tmp folder, just delete one of these hard links, all the original files and changes in the Journal folder are still there.
 
+![snf](/src/snf.gif)
 <p align="left">
 <img src="/src/snf.gif" alt="snf script]" width="500">
 </p>
