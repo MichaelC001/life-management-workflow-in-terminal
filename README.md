@@ -12,12 +12,12 @@
 
 ## 2.Hark link and soft link
 The core tool used in this workflow is the system build-in function: hard link and soft link.<br />
+
 **hard link** <br />
 ```
 ln original_file new_file
 ```
 This command creates a new link to the original file, so that any changes made to either file will be **automatically synchronized**, resulting in both files being **exactly the same**.<br />
 The hard link only works for files.Delete one file will not affect another linked file.
-
 
 ## 3.Tag system
