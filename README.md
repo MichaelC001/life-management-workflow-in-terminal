@@ -1,9 +1,11 @@
 # life management workflow in terminal
 ### 1. Principle and feature
 **Philosophy** <br />
-This workflow is just a methodology and philosophy, you can develop your own workflow based on it, you don't necessarily have to use the same software or tools as me.<br />
+This workflow is just a methodology and philosophy, you can develop your own workflow based on it, you don't necessarily have to use the same software or tools as me. My workflow just requires only two system build-in function (hard links, soft links) and a file manager, so that I could paly the same workflow in any device.<br />
+
 **Purpose** <br />
 The purpose of this workflow is to **solve problems** in my life and **develop my passions** through **lifelong learning**.<br />
+
 **Feature**<br />
 1. note tags
 2. search and edit
