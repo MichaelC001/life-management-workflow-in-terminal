@@ -10,7 +10,7 @@ The purpose of this workflow is to **solve problems** in my life and **develop m
 1. note tags
 2. search and edit
 3. read it later：reading  markdown files in neovim and then delete any unnecessary content, and summarize the main points of the article.
-4. backup any file：just hard link
+4. backup any file with one click
 
 ### 2.Hark link and soft link
 The core tool used in this workflow is the system build-in function: hard link and soft link.<br />
