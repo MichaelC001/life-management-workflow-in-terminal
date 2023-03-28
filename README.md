@@ -21,3 +21,4 @@ This command creates a new link to the original file, so that any changes made t
 The hard link only works for files.Delete one file will not affect another linked file.
 
 ## 3.Tag system
+Yes, we can use hard links to build a tag system. By assigning tags to files through hard links, we can easily organize and access files by their tags. This is because each hard link behaves as a separate file that retains the same content as the original file, but with a different name or location. Thus, multiple tags can be assigned to a single file by creating multiple hard links to that file with different tag names.
